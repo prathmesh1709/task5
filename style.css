@@ -1,0 +1,32 @@
+/* Here we can toggle the colors by hovering the color and then changing it that we wish */
+:root {
+   --primary-color: #1e29a6cc;
+   --text-color: white;
+   --secondary-color: #8b9bedcc;
+}
+
+body {
+   background-color: var(--secondary-color);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+nav {
+   background-color: var(--primary-color);
+   padding: 12px 0;
+}
+
+ul li {
+   list-style: none;
+   padding: 20px;
+   font-weight: bolder;
+   color: var(--text-color);
+}
+
+ul {
+   display: flex;
+}
